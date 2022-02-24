@@ -1,0 +1,52 @@
+{
+  "name": "dataanalysis",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview",
+    "theme": "sh src/css/element-ui/element-theme.sh"
+  },
+  "dependencies": {
+    "@vueuse/core": "^4.11.2",
+    "axios": "^0.21.1",
+    "click-outside-vue3": "^4.0.1",
+    "dayjs": "^1.10.6",
+    "echarts": "^5.2.2",
+    "editor": "^1.0.0",
+    "element-plus": "^1.0.2-beta.71",
+    "file-saver": "^2.0.5",
+    "lodash": "^4.17.21",
+    "monaco-editor": "^0.19.3",
+    "monaco-editor-webpack-plugin": "^1.9.1",
+    "qrcode": "^1.4.4",
+    "screenfull": "^5.0.2",
+    "store": "^2.0.12",
+    "vue": "^3.2.6",
+    "vue-draggable-next": "^2.1.1",
+    "vue-i18n": "^9.1.7",
+    "vue-router": "^4.0.0-0",
+    "vue3-clickout": "^1.0.1",
+    "vue3-cron": "^1.1.6",
+    "vuedraggable": "^4.1.0",
+    "vuex": "^4.0.1",
+    "wangeditor": "^4.0.3",
+    "xlsx": "^0.17.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.171",
+    "@types/node": "^16.11.6",
+    "@types/qrcode": "^1.4.1",
+    "@types/store": "^2.0.2",
+    "@vitejs/plugin-vue": "^1.6.0",
+    "@vue/compiler-sfc": "^3.2.6",
+    "autoprefixer": "^10.3.3",
+    "postcss": "^8.3.6",
+    "sass": "^1.38.2",
+    "tailwindcss": "^2.2.9",
+    "typescript": "^4.4.2",
+    "vite": "^2.5.1",
+    "vite-plugin-svg-icons": "^1.0.4",
+    "vue-tsc": "^0.2.3"
+  }
+}

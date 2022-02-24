@@ -1,0 +1,16 @@
+export default {
+  '时间-电压&电流': 'Time - Voltage & Current',
+  'DOD-开路电压': 'DOD - Open Circuit Voltage',
+  'DOD-脉冲阻抗': 'DOD - Impulse Impedance',
+  'DOD-脉冲功率': 'DOD - Pulse Power',
+  时间: 'Time',
+  电压: 'Voltage',
+  电流: 'Current',
+  开路电压: 'Open Circuit Voltage',
+  阻抗: 'Impedance',
+  功率: 'Power',
+  放电脉冲阻抗: 'Discharge Pulse Impedance',
+  反馈脉冲阻抗: 'Feedback Pulse Impedance',
+  放电脉冲功率: 'Discharge Pulse Power',
+  反馈脉冲功率: 'Feedback Pulse Power',
+}

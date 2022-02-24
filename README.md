@@ -1,2 +1,4 @@
-# vue3-components-test
-基于elementPlus-ui
+数据输出
+npm install
+npm run dev
+cron插件用npm install 安装 
