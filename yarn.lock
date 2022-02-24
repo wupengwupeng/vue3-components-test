@@ -3256,6 +3256,11 @@
     "element-plus" "^1.0.2-beta.28"
     "vue" "^3.0.0"
 
+"vue3-same-components@^2.0.2":
+  "integrity" "sha512-YiwhL4jfBUOmEL/KZpXVgNW3u3oQGDbiqF7/2+z/UNXSMJFcE3LQxJNcWV1JvkpRxkAP0nBcjimI6+4eZiy6QA=="
+  "resolved" "https://registry.npmjs.org/vue3-same-components/-/vue3-same-components-2.0.2.tgz"
+  "version" "2.0.2"
+
 "vuedraggable@^4.1.0":
   "integrity" "sha512-FU5HCWBmsf20GpP3eudURW3WdWTKIbEIQxh9/8GE806hydR9qZqRRxRE3RjqX7PkuLuMQG/A7n3cfj9rCEchww=="
   "resolved" "https://registry.npmjs.org/vuedraggable/-/vuedraggable-4.1.0.tgz"

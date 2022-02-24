@@ -15,16 +15,24 @@ import AppSvgIcon from './components/app/AppSvgIcon.vue'
 import * as directives from './directives/index'
 import vue3Cron from 'vue3-cron'
 import 'vue3-cron/lib/vue3Cron.css'
+
+import MyPlugin from 'vue3-same-components'
+
+
+
 const app = createApp(App);
-app.use(i18n).use(vue3Cron)
+
+app.use(i18n).use(vue3Cron).use(MyPlugin)
   .use(element, {
     i18n: (k: string, v: string) => i18n.global.t(k, v),
   })
   .use(store, key).use(router)
   .mount('#app')
+
+
 // 自定义指令
 Object.keys(directives).forEach(key => {
-  console.log(key);
   app.directive(key, (directives as { [key: string]: Directive })[key])
 })
+
 app.component(AppSvgIcon.name, AppSvgIcon)

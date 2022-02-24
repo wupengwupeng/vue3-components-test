@@ -11,3 +11,8 @@ declare module 'vue3-cron' {
   export function export_table_to_excel(id: string): void
   export function export_json_to_excel(option: any): void
 }
+
+declare module 'vue3-same-components' {
+  import vue3SameComponents from 'vue3-same-components'
+  export default vue3SameComponents
+}

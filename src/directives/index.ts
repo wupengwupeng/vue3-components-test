@@ -5,3 +5,6 @@ export * from './showTick'
 export * from './onlyNumber'
 
 export * from './outClick'
+
+
+export * from './waves'
