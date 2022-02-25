@@ -10,7 +10,6 @@ export const onlyNumber: Directive = {
       reg = binding.value;
     }
     input.oninput = function () {
-      console.log(vnode, 1111);
       this.value = this.value.replace(reg, '');
       if (vnode.dirs[0].instance) { // 手动触发双向绑定
         vnode.dirs[0].instance.$emit('input', this.value);

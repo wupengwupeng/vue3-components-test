@@ -6,5 +6,6 @@ export * from './onlyNumber'
 
 export * from './outClick'
 
-
 export * from './waves'
+
+export * from './clipboard'

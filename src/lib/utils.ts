@@ -1,6 +1,5 @@
 import { pick } from 'lodash'
 import { initEChartsWithTheme } from './echarts'
-import { ElMessage, ElNotification } from 'element-plus'
 
 export function matchMediaPrefersColorSchemeDark(): boolean {
   return window.matchMedia?.('(prefers-color-scheme: dark)').matches
@@ -101,20 +100,6 @@ export function parseTime(time: string | number, pattern?: string) {
 export function getUrlKey(name: any) {
   return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.href) || [, ""])[1].replace(/\+/g, '%20')) || null
 }
-
-export function showError(message: string) {
-  ElMessage({
-    type: 'error',
-    message,
-  })
-}
-export function showSuccess(message: string) {
-  ElMessage({
-    type: 'success',
-    message,
-  })
-}
-
 
 // 将文字输入图片
 // export function textToImg(name: any, width: any, height: any) {

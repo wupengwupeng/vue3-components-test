@@ -94,3 +94,14 @@ export function alertBox(msg: any, btnName: any, fun: any) {
 //     beforeClose: fun
 //   })
 // }
+
+
+
+export const succesElNotification = (msg: any) => {
+  ElNotification({
+    title: 'Success',
+    message: msg,
+    type: 'success',
+    position: 'bottom-left',
+  })
+}
